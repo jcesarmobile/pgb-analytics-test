@@ -4,7 +4,7 @@
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
-    <preference name="phonegap-version" value="cli-8.0.0" />
+    <preference name="phonegap-version" value="cli-6.5.0" />
     <author email="dev@cordova.apache.org" href="http://cordova.io">
         Apache Cordova Team
     </author>
@@ -24,7 +24,7 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-    <plugin name="com.cmackay.plugins.googleanalytics" source="npm" spec="~1.0.2">
-        <param name="ANALYTICS_VERSION" value="11.0.1" />
+    <plugin name="com.cmackay.plugins.googleanalytics" spec="~1.0.3">
+        <variable name="ANALYTICS_VERSION" value="11.0.1" />
     </plugin>
 </widget>

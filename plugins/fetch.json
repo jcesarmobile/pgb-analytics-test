@@ -1,0 +1,12 @@
+{
+  "com.cmackay.plugins.googleanalytics": {
+    "source": {
+      "type": "registry",
+      "id": "com.cmackay.plugins.googleanalytics"
+    },
+    "is_top_level": true,
+    "variables": {
+      "ANALYTICS_VERSION": "11.0.1"
+    }
+  }
+}
